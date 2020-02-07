@@ -1,0 +1,45 @@
+
+
+.blog-img{
+  grid-area: i;
+  display: flex;
+  align-items: center;
+
+
+}
+.blog-img > img{
+  display: flex;
+  text-align: center;
+  border: 5px red solid;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.blog-img1{
+  grid-area: b1;
+
+
+  background-color: White;
+  text-align: center;
+  border: 5px lightgreen solid;
+  padding: 10px;
+  margin: 10px;
+
+
+}
+.blog-img1 > img {width:100%;}
+
+.blog-img2{
+  grid-area: b2;
+  width: 100%;
+
+  background-color: White;
+  border: 5px lightgreen solid;
+  padding: 10px;
+  margin: 10px;
+  text-align: : center;
+}
+.blog-img2 > img {width: 100%;}
